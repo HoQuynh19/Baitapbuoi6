@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-menu{
+    
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.content-text{
+    padding-left: 10px;
+}
+
+#album{
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+#lorem{
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#button1{
+    font-size: 12px;
+    background-color: #0071ff;
+    border: unset;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#button2{
+    font-size: 12px;
+    background-color: #6c757d;
+    margin-left: 5px;
+    border: unset;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+/* conten css */
+.content {
+    display: grid;
+    grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    padding: 50px 40px 50px 40px;
+}
+.p-l-r {
+    padding: 0 20px 40px 20px;
+}
+.card{
+    /* background-color: #55595c; */
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 5px rgb(0 0 0 / 0.2);
+    margin: 0;
+    /* width: 32%; */
+    height: 100%;
+    border-radius: 4px;
+    /* padding: 0 10px 0 10px; */
+}
+
+.card-header{
+    width: 100%;
+    height: 180px;
+    background-color: #55595c;
+    font-size: 25px;
+    display: flex;
+     /* text-align: center; */
+     align-items: center;
+     justify-content: center;
+     color: white;
+
+}
+
+.card-mider{
+    font-size: 16px;
+    padding: 10px;
+}
+
+.card-buttom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.button1{
+    font-size: 12px;
+    height: 28px;
+    padding: 0 10px;
+    
+}
+
+.button2{
+    font-size: 12px;
+    height: 28px;
+    padding: 0 10px;
+    
+}
+
+#text-edit{
+    padding: 10px;
+    font-size: 18px;
+}
